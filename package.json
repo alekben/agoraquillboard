@@ -1,0 +1,21 @@
+{
+  "name": "fastboard3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@netless/app-quill": "0.0.1-fb.4",
+    "@netless/fastboard": "latest",
+    "@netless/window-manager": "latest",
+    "white-web-sdk": "latest"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  }
+}
