@@ -73,7 +73,7 @@ async function main() {
         }
       }},
     managerConfig: {
-      cursor: true
+      cursor: false
     },
   });
 

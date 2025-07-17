@@ -60,6 +60,9 @@ async function main() {
       userPayload: {
         nickName: username,
       },
+      managerConfig: {
+        cursor: false
+      },
       callbacks: {
         onPhaseChanged: (phase) => {
           console.log(phase);
