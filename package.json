@@ -10,12 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@netless/app-quill": "0.0.1-fb.4",
-    "@netless/fastboard": "latest",
-    "@netless/window-manager": "latest",
-    "white-web-sdk": "latest"
+    "@netless/app-quill": "0.0.1-fb.9",
+    "@netless/fastboard": "latest"
   },
   "devDependencies": {
-    "vite": "latest"
+    "vite": "6.2.5"
   }
 }

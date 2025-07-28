@@ -7,12 +7,12 @@ let fastboard;
 const region = "us-sv";
 
 //set app identifier here
-const appid = "APP_IDENTIFIER_HERE";
+const appid = "";
 
 //generate a room UUID with REST API and set here
-const uuid = "ROOM_UUID_HERE";
+const uuid = "";
 
-const sdkToken = "SDK_TOKEN_HERE";
+const sdkToken = "";
 
 
 //Fill in SDK token here to autogenerate or add it manually when creating fastboard
@@ -154,7 +154,12 @@ function triggerQuill() {
     console.log("Quill not in the room");
     fastboard.manager.addApp({
       kind: 'Quill',
-      options: { title: "Collaboration Notes"}
+      options: {
+        title: "Collaboration Notes"
+      },
+      attributes: {
+        placeholder: "Empty Quill"
+      }
     });
   }
   //start observer here after checking whether to add Quill or not, that will monitor class changes and remove new ql-background-image class when content is added
